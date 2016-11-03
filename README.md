@@ -28,8 +28,15 @@ Algorithm can be split into following sub-blocks:
   
 ### Note: The algorithm informs with a print spew if it failed to detect one/both lane markings but continues to find lane markings in subsequent images
 
+## Running the code
+To run the code, open P1.ipynb using jupyter notebook and execute cells one after the other or all in one go. 
 
+After the execution is complete, output for test images would be created in the same folder as "test_images/" but with file names prepended with "lanes_". Please delete all files with name starting with "lanes_" before running the algorithm again
 
+The code could also be run using python. In this case open P1.py instead of P1.ipynb and execute using 
+$ python P1.py
+
+The python code was used for development and P1.ipynb would be considered for submission. It could be enhanced further with arguments to decide whether to operate in video mode or image mode and also clean up output files before subsequent execution. This task will be taken up if time permits at a later stage
 
 ## Tested with  
 - test_images
