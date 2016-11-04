@@ -28,6 +28,15 @@ Algorithm can be split into following sub-blocks:
   
 ### Note: The algorithm informs with a print spew if it failed to detect one/both lane markings but continues to find lane markings in subsequent images
 
+
+## Shortcomings and Suggestions for improving this algorithm:
+1. Output of the algorithm appears correct but not very smooth
+	- Average of y intercepts could be considered for smoothening out the lane markings
+    - Will be trying a second order filter to test this concept
+2. Weighted average could be considered to fit lane markings instead of linear regression. This would give more weightage to longer lines and hopefully fit the lane markings better
+3. This implementation could also be run through a video captured in various lighting conditions to test robustness
+
+
 ## Running the code
 To run the code, open P1.ipynb using jupyter notebook and execute cells one after the other or all in one go. 
 
@@ -42,4 +51,4 @@ The python code was used for development and P1.ipynb would be considered for su
 - test_images
 - solidWhiteRight.mp4
 - solidYellowLeft.mp4
-- challenge.mp4 
+- challenge.mp4
