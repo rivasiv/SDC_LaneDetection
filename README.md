@@ -49,6 +49,22 @@ The python code was used for development and P1.ipynb would be considered for su
 
 ## Tested with  
 - test_images
-- solidWhiteRight.mp4
+- solidWhiteRight.mp4 
 - solidYellowLeft.mp4
 - challenge.mp4
+
+## Results of test run
+
+### Input: solidWhiteRight.mp4 
+
+Output: [White lane markers](<iframe width="1280" height="720" src="https://www.youtube.com/embed/GCs4mra8DeA" frameborder="0" allowfullscreen></iframe> "White lane markers")
+
+### Input: solidYellowLeft.mp4
+
+Output: [White and Yellow lane markers](<iframe width="1280" height="720" src="https://www.youtube.com/embed/dM2LryY2PEs" frameborder="0" allowfullscreen></iframe> "White and Yellow lane markers")
+
+
+### Input: challenge.mp4
+
+Output: [Challenge: shaded areas and bright road](<iframe width="1280" height="720" src="https://www.youtube.com/embed/ejKcAz75cig" frameborder="0" allowfullscreen></iframe> "Challenge: shaded areas and bright road")
+
