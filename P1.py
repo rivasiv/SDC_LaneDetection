@@ -170,7 +170,7 @@ GAUSS_KER = 3
 #Hough transform params
 HOUGH_THRESHOLD = 10
 HOUGH_MIN_LEN = 20
-HOUGH_MAX_GAP = 20
+HOUGH_MAX_GAP = 80
 
 #Lane detection slope threshold
 SLOPE_THRESHOLD = 0.4
